@@ -6,7 +6,7 @@ function setup() {
   fixedRect.shapeColor = "green";
   car = createSprite(200,200,40,40);
   car.shapeColor = "blue";
-  car.velocityX =4;
+  car.velocityX =3;
 
   wall = createSprite(1000,200,20,100);
   wall.shapeColor = "pink";
@@ -18,7 +18,7 @@ function setup() {
 }
 
 function draw() {
-  background(0,0,0);  
+  background(0,0,28);  
   movingRect.x = World.mouseX;
   movingRect.y = World.mouseY;
 
